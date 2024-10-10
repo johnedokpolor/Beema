@@ -155,7 +155,7 @@ const Auth = () => {
               value={password}
               type="password"
               id="password"
-              placeholder="*****"
+              placeholder="*******"
               required
             />
           </div>
