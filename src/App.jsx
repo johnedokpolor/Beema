@@ -1,7 +1,7 @@
 import { useState, useEffect, createContext } from "react";
 import SideBar from "./components/SideBar/SideBar";
 import Main from "./components/Main/Main";
-import Auth from "./components/auth";
+import Auth from "./components/Auth";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./style.css";
