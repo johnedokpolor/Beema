@@ -59,7 +59,7 @@
     @apply mb-2 mt-5 block;
   }
   input {
-    @apply w-full rounded-md border border-gray-700 bg-transparent p-2 outline-0;
+    @apply w-full rounded-md border border-gray-700 bg-transparent p-4 md:p-3 outline-0;
   }
   .n button {
     @apply mt-2 rounded-md bg-black px-5 py-2 text-white duration-300 hover:text-[1.1rem] md:cursor-pointer;
