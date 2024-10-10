@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useState } from "react";
-import { Context } from "../../context/context";
+import { Context } from "../../context/Context";
 import { FaBars, FaHistory, FaQuestion } from "react-icons/fa";
 import { IoSettingsOutline } from "react-icons/io5";
 import { FaRegMessage, FaPlus } from "react-icons/fa6";
