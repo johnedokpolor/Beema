@@ -41,7 +41,7 @@ const Auth = () => {
     } catch (error) {
       console.log(error.message);
       Swal.fire({
-        text: "Login Error",
+        text: error.message,
         showConfirmButton: false,
         timer: 1000,
         timerProgressBar: true,
@@ -67,7 +67,6 @@ const Auth = () => {
               showConfirmButton: false,
               timer: 1000,
               width: "300",
-
               timerProgressBar: true,
               position: "top-right",
             }).then(() => {
@@ -79,7 +78,7 @@ const Auth = () => {
             });
           } catch (error) {
             Swal.fire({
-              text: "Unknown Error",
+        text: error.message,
               showConfirmButton: false,
               timer: 1000,
               width: "200",
@@ -92,7 +91,8 @@ const Auth = () => {
     } catch (error) {
       console.log(error.message);
       Swal.fire({
-        text: "Unknown Error",
+        text: error.message,
+   
         showConfirmButton: false,
         timer: 1000,
         width: "200",
