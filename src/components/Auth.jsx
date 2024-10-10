@@ -107,7 +107,7 @@ const Auth = () => {
     <div className="dark flex h-screen w-screen flex-col items-center justify-center">
       <div className="w-[85%] max-w-[400px]">
         <img className="w-16 rounded-full" src={Logo} alt="" />
-        <h1 className="title mt-3 text-[48px] tracking-[5px]">Beema</h1>
+        <h1 className="title mt-3 text-[48px] tracking-[4px]">Beema</h1>
         <p className="mt-2">
           <span className="opacity-70">
             {login ? "Don't have an account?" : "Already have an account?"}
