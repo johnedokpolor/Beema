@@ -41,7 +41,7 @@ const SideBar = () => {
               <div
                 data-aos="fade"
                 key={id}
-                className="recent-entry flex items-center hover:bg-[#383838] dark:text-white md:cursor-pointer"
+                className="recent-entry flex items-center dark:hover:bg-[#383838] dark:text-white md:cursor-pointer"
                 onClick={() => loadPrompt(item)}
               >
                 <FaRegMessage />
@@ -55,7 +55,7 @@ const SideBar = () => {
         {BottomItems.map(({ id, img, text }) => (
           <div
             key={id}
-            className="bottom-items recent-entry flex items-center hover:bg-[#383838] dark:text-white"
+            className="bottom-items recent-entry flex items-center dark:hover:bg-[#383838] dark:text-white"
           >
             <div className="text-lg">{img}</div>
             {extended && <p>{text}</p>}
