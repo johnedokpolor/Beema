@@ -39,13 +39,8 @@ const SideBar = () => {
             <p className="mb-5 mt-8">Recent</p>
             {prevPrompt.map(({ id, item }) => (
               <div
-                data-aos="fade"
                 key={id}
-<<<<<<< HEAD
-                className="recent-entry flex items-center dark:text-white md:cursor-pointer"
-=======
-                className="recent-entry flex items-center dark:hover:bg-[#383838] dark:text-white md:cursor-pointer"
->>>>>>> b4c94086c4760a7ddbb5c9e097895c4f61f50f7c
+                className="recent-entry flex items-center dark:text-white dark:hover:bg-[#383838] md:cursor-pointer"
                 onClick={() => loadPrompt(item)}
               >
                 <FaRegMessage />
@@ -59,11 +54,7 @@ const SideBar = () => {
         {BottomItems.map(({ id, img, text }) => (
           <div
             key={id}
-<<<<<<< HEAD
-            className="bottom-items recent-entry flex items-center dark:text-white"
-=======
-            className="bottom-items recent-entry flex items-center dark:hover:bg-[#383838] dark:text-white"
->>>>>>> b4c94086c4760a7ddbb5c9e097895c4f61f50f7c
+            className="bottom-items recent-entry flex items-center dark:text-white dark:hover:bg-[#383838]"
           >
             <div className="text-lg">{img}</div>
             {extended && <p>{text}</p>}
