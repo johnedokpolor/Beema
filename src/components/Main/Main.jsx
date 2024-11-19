@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect, useRef } from "react";
-import { Context } from "../../context/context";
+import { Context } from "../../context/Context";
 import Logo from "../../assets/bmalogo.jpg";
 import { FaMoon, FaSun, FaRegCompass, FaCode, FaRegCopy } from "react-icons/fa";
 import { MdOutlineLightbulb } from "react-icons/md";
