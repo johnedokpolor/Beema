@@ -78,7 +78,7 @@ const Auth = () => {
             });
           } catch (error) {
             Swal.fire({
-        text: error.message,
+              text: error.message,
               showConfirmButton: false,
               timer: 1000,
               width: "200",
@@ -92,7 +92,7 @@ const Auth = () => {
       console.log(error.message);
       Swal.fire({
         text: error.message,
-   
+
         showConfirmButton: false,
         timer: 1000,
         width: "200",
@@ -107,11 +107,11 @@ const Auth = () => {
     <div className="dark flex h-screen w-screen flex-col items-center justify-center">
       <div className="w-[85%] max-w-[400px]">
         <img className="w-16 rounded-full" src={Logo} alt="" />
-<<<<<<< HEAD
+
         <h1 className="title mt-3 text-[45px] tracking-[3px]">Beema</h1>
-=======
+
         <h1 className="title mt-3 text-[48px] tracking-[4px]">Beema</h1>
->>>>>>> b4c94086c4760a7ddbb5c9e097895c4f61f50f7c
+
         <p className="mt-2">
           <span className="opacity-70">
             {login ? "Don't have an account?" : "Already have an account?"}
